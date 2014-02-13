@@ -20,16 +20,7 @@
   	<url>https://github.com/katyaap/SimpleJavaProject.git</url>
   	<developerConnection>kathirvel p</developerConnection>
   </scm>
-  <snapshotRepository>
-    <id>CTO-snapshots</id>
-    <url>http://nexusrepo.cloudapp.net:8081/nexus/content/repositories/CTO-snapshots</url>
-  </snapshotRepository>
- <repository>
-    <id>CTO-releases</id>
-    <url>http://nexusrepo.cloudapp.net:8081/nexus/content/repositories/CTO-releases</url>
-  </repository>
-  
-  <ciManagement>
+    <ciManagement>
   	<system>http://ciserver1.cloudapp.net:8080/</system>
   </ciManagement>
   <name>SimpleJavaProject</name>
@@ -38,3 +29,4 @@
   	<name>WT</name>
   </organization>
 </project>
+<repositories></repositories>
